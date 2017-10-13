@@ -1,5 +1,5 @@
-var obj = JSON.parse(text);
+$(document).ready();
 
-if (obj.particles.move.bounce == true) {
-    
-};
+$("#particle-js").click(function(){
+    $(".text").hide();
+});
